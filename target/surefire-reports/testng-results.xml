@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="16" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54521" started-at="2021-07-23T00:09:44 EDT" finished-at="2021-07-23T00:10:39 EDT">
+    <groups>
+      <group name="regressionTest">
+        <method signature="ShoppingButton.carmaxShoppinButton()[pri:0, instance:generalTest.ShoppingButton@536aaa8d]" name="carmaxShoppinButton" class="generalTest.ShoppingButton"/>
+        <method signature="ShoppingButton.textConfirm()[pri:0, instance:generalTest.ShoppingButton@536aaa8d]" name="textConfirm" class="generalTest.ShoppingButton"/>
+        <method signature="SignIn.carmaxSignIn()[pri:0, instance:generalTest.SignIn@e320068]" name="carmaxSignIn" class="generalTest.SignIn"/>
+        <method signature="Warranty.carmaxWarranty()[pri:0, instance:generalTest.Warranty@704a52ec]" name="carmaxWarranty" class="generalTest.Warranty"/>
+      </group> <!-- regressionTest -->
+    </groups>
+    <test name="Test" duration-ms="54521" started-at="2021-07-23T00:09:44 EDT" finished-at="2021-07-23T00:10:39 EDT">
+      <class name="generalTest.Warranty">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:generalTest.Warranty@704a52ec]" name="setUpMethod" is-config="true" duration-ms="3969" started-at="2021-07-23T00:10:23 EDT" finished-at="2021-07-23T00:10:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="carmaxWarranty()[pri:0, instance:generalTest.Warranty@704a52ec]" name="carmaxWarranty" duration-ms="10464" started-at="2021-07-23T00:10:27 EDT" finished-at="2021-07-23T00:10:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carmaxWarranty -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:generalTest.Warranty@704a52ec]" name="tearDownMethod" is-config="true" duration-ms="949" started-at="2021-07-23T00:10:38 EDT" finished-at="2021-07-23T00:10:39 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=carmaxWarranty status=SUCCESS method=Warranty.carmaxWarranty()[pri:0, instance:generalTest.Warranty@704a52ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- generalTest.Warranty -->
+      <class name="generalTest.SignIn">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:generalTest.SignIn@e320068]" name="setUpMethod" is-config="true" duration-ms="4747" started-at="2021-07-23T00:10:13 EDT" finished-at="2021-07-23T00:10:18 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="carmaxSignIn()[pri:0, instance:generalTest.SignIn@e320068]" name="carmaxSignIn" duration-ms="4123" started-at="2021-07-23T00:10:18 EDT" finished-at="2021-07-23T00:10:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carmaxSignIn -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:generalTest.SignIn@e320068]" name="tearDownMethod" is-config="true" duration-ms="940" started-at="2021-07-23T00:10:22 EDT" finished-at="2021-07-23T00:10:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=carmaxSignIn status=SUCCESS method=SignIn.carmaxSignIn()[pri:0, instance:generalTest.SignIn@e320068] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- generalTest.SignIn -->
+      <class name="generalTest.SearchBox">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:generalTest.SearchBox@2833cc44]" name="setUpSuite" is-config="true" duration-ms="234" started-at="2021-07-23T00:09:44 EDT" finished-at="2021-07-23T00:09:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:generalTest.SearchBox@2833cc44]" name="tearDownSuite" is-config="true" duration-ms="301" started-at="2021-07-23T00:10:39 EDT" finished-at="2021-07-23T00:10:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- generalTest.SearchBox -->
+      <class name="generalTest.ShoppingButton">
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:generalTest.ShoppingButton@536aaa8d]" name="setUpMethod" is-config="true" duration-ms="5535" started-at="2021-07-23T00:09:44 EDT" finished-at="2021-07-23T00:09:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="carmaxShoppinButton()[pri:0, instance:generalTest.ShoppingButton@536aaa8d]" name="carmaxShoppinButton" duration-ms="8629" started-at="2021-07-23T00:09:50 EDT" finished-at="2021-07-23T00:09:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carmaxShoppinButton -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:generalTest.ShoppingButton@536aaa8d]" name="tearDownMethod" is-config="true" duration-ms="886" started-at="2021-07-23T00:09:58 EDT" finished-at="2021-07-23T00:09:59 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=carmaxShoppinButton status=SUCCESS method=ShoppingButton.carmaxShoppinButton()[pri:0, instance:generalTest.ShoppingButton@536aaa8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:generalTest.ShoppingButton@536aaa8d]" name="setUpMethod" is-config="true" duration-ms="4683" started-at="2021-07-23T00:09:59 EDT" finished-at="2021-07-23T00:10:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="textConfirm()[pri:0, instance:generalTest.ShoppingButton@536aaa8d]" name="textConfirm" duration-ms="8678" started-at="2021-07-23T00:10:04 EDT" finished-at="2021-07-23T00:10:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textConfirm -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:generalTest.ShoppingButton@536aaa8d]" name="tearDownMethod" is-config="true" duration-ms="877" started-at="2021-07-23T00:10:13 EDT" finished-at="2021-07-23T00:10:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=textConfirm status=SUCCESS method=ShoppingButton.textConfirm()[pri:0, instance:generalTest.ShoppingButton@536aaa8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- generalTest.ShoppingButton -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

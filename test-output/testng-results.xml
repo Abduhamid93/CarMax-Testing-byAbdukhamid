@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="13" total="16" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70624" started-at="2021-07-22T23:35:55 EDT" finished-at="2021-07-22T23:37:05 EDT">
+    <groups>
+      <group name="smokeTest">
+        <method signature="SearchBox.carmaxSearchParticularBrand1()[pri:0, instance:generalTest.SearchBox@7a3d45bd]" name="carmaxSearchParticularBrand1" class="generalTest.SearchBox"/>
+        <method signature="SearchBox.carmaxSearchParticularBrand2()[pri:0, instance:generalTest.SearchBox@7a3d45bd]" name="carmaxSearchParticularBrand2" class="generalTest.SearchBox"/>
+        <method signature="SearchBox.carmaxSearchParticularBrand3()[pri:0, instance:generalTest.SearchBox@7a3d45bd]" name="carmaxSearchParticularBrand3" class="generalTest.SearchBox"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Test" duration-ms="70624" started-at="2021-07-22T23:35:55 EDT" finished-at="2021-07-22T23:37:05 EDT">
+      <class name="generalTest.SearchBox">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:generalTest.SearchBox@7a3d45bd]" name="setUpSuite" is-config="true" duration-ms="374" started-at="2021-07-22T23:35:54 EDT" finished-at="2021-07-22T23:35:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:generalTest.SearchBox@7a3d45bd]" name="setUpMethod" is-config="true" duration-ms="10019" started-at="2021-07-22T23:35:55 EDT" finished-at="2021-07-22T23:36:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="carmaxSearchParticularBrand1()[pri:0, instance:generalTest.SearchBox@7a3d45bd]" name="carmaxSearchParticularBrand1" duration-ms="18587" started-at="2021-07-22T23:36:05 EDT" finished-at="2021-07-22T23:36:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carmaxSearchParticularBrand1 -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:generalTest.SearchBox@7a3d45bd]" name="tearDownMethod" is-config="true" duration-ms="750" started-at="2021-07-22T23:36:23 EDT" finished-at="2021-07-22T23:36:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:generalTest.SearchBox@7a3d45bd]" name="setUpMethod" is-config="true" duration-ms="4401" started-at="2021-07-22T23:36:24 EDT" finished-at="2021-07-22T23:36:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="carmaxSearchParticularBrand2()[pri:0, instance:generalTest.SearchBox@7a3d45bd]" name="carmaxSearchParticularBrand2" duration-ms="11401" started-at="2021-07-22T23:36:28 EDT" finished-at="2021-07-22T23:36:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carmaxSearchParticularBrand2 -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:generalTest.SearchBox@7a3d45bd]" name="tearDownMethod" is-config="true" duration-ms="770" started-at="2021-07-22T23:36:40 EDT" finished-at="2021-07-22T23:36:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:generalTest.SearchBox@7a3d45bd]" name="setUpMethod" is-config="true" duration-ms="3891" started-at="2021-07-22T23:36:41 EDT" finished-at="2021-07-22T23:36:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="carmaxSearchParticularBrand3()[pri:0, instance:generalTest.SearchBox@7a3d45bd]" name="carmaxSearchParticularBrand3" duration-ms="19550" started-at="2021-07-22T23:36:44 EDT" finished-at="2021-07-22T23:37:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carmaxSearchParticularBrand3 -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:generalTest.SearchBox@7a3d45bd]" name="tearDownMethod" is-config="true" duration-ms="1208" started-at="2021-07-22T23:37:04 EDT" finished-at="2021-07-22T23:37:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:generalTest.SearchBox@7a3d45bd]" name="tearDownSuite" is-config="true" duration-ms="269" started-at="2021-07-22T23:37:05 EDT" finished-at="2021-07-22T23:37:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- generalTest.SearchBox -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
