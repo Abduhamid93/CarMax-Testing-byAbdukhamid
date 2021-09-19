@@ -33,6 +33,17 @@ import utilities.Driver;
 
 public abstract class TestBase {
 	
+	
+	//Write how to push, update, pull through git request
+	/*cd "path of project"
+	 * git init
+	 * git add . 
+	 * git commit -m "First Commit"
+	 * git remote add origin "url"
+	 * git push -u origin master
+	 * 
+	 */
+	
 	protected WebDriver driver;
 	protected Actions actions;
 

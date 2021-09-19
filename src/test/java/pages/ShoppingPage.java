@@ -13,7 +13,16 @@ public class ShoppingPage {
 	}
 	
 	@FindBy (id = "header-mobile-drawer-focus-start")
-	public WebElement shoppingButton; 
+	public WebElement shoppingButton;
+	
+	@FindBy (id = "header-inventory-search")
+	public WebElement shoppingPageSearchBar; 
+	
+	@FindBy (id = "shop-by-type__slides-item0")
+	public WebElement ShoppingPageShopByTypeButton; 
+	
+	@FindBy (xpath = "//*[@id=\"shop-by-price\"]/div[1]/div[1]/div[2]")
+	public WebElement ShoppingPageShopByPriceButton;
 	
 	
 	
